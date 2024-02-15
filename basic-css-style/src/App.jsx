@@ -1,9 +1,7 @@
-import Button from "./Button";
+import MyButton from "./MyButton.jsx";
 
 function App() {
-  <>
-    <Button />
-  </>
+    <MyButton />
 }
 
 export default App
