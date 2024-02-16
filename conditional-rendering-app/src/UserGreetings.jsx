@@ -12,7 +12,7 @@ function UserGreetings(props){
     //         </div>
     //     );
     // }
-    return(props.isLoggedIn ? <h1>Welcome {props.username}</h1>:<h1>Please Logg In to continue</h1>)
+    return(props.isLoggedIn ? <h1 className="welcome-message">Welcome {props.username}</h1>:<h1 className="login-prompt">Please Logg In to continue</h1>)
 }
 
 export default UserGreetings
