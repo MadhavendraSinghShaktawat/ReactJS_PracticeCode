@@ -3,16 +3,20 @@
 //              (useState, useEffect, useContext, useReducer, useCallback, and many more...)
 
 // useState() = A react hook that allows the creation of a statful variable
-//              and a setter function to update its value in the Virtual DOM
+//              and a setter function to update its value in the Virtual DOM.
+//              [name, setName]
+
+import MyComponents from './MyComponents.jsx';
+import Counter from './Counter.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+  return(
     <>
-      
+      <MyComponents/>
+      <hr></hr>
+      <Counter/>
     </>
-  )
+  );
 }
 
 export default App
